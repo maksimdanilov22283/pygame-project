@@ -37,7 +37,7 @@ object_1.draw()
 object_2 = Sprite(200, 200, 30, 30, 'картинка.png')
 object_2.draw()
 
-while 1 == 1:
+while True:
     screen.fill((255,255,255))
     collide_counter.draw(0, 0)
     object_1.draw()
